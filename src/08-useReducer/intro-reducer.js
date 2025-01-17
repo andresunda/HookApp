@@ -34,3 +34,7 @@ todos = todoReducer(todos, addTodoAction);
 
 
 console.table({ state: todos });
+
+
+//Comentarios
+//El useReducer es una funcion pura la cual recibe un estado inicial y la accion que recibe para regresar un nuevo
