@@ -12,6 +12,9 @@ import { CallBackHook } from './06-memos/CallBackHook';
 import { Padre } from './07-tarea-memo/Padre';
 //import CounterApp from './01-useState/CounterApp';
 //import HooksApp from './HooksApp';
+import './08-useReducer/intro-reducer';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,7 +22,7 @@ root.render(
    // <FormWithCustomHook />
    //<MultipleCustomHooks />
    //<FocusScreens />
-   <Padre />
+   //<Padre />
    // </React.StrictMode>
 );
 
